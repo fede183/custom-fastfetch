@@ -1,2 +1,5 @@
-# custom-fastfetch
-My custom fastfetch config
+My fastfetch custom config
+================================
+
+![Fastfetch image](docs/fastfetch\_example.jpg)
+
