@@ -1,3 +1,5 @@
 #!/bin/sh
 
-rsync -r fastfetch ~/.config/fastfetch
+SCRIPTPATH=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+rsync -r SCRIPTPATH/fastfetch ~/.config/fastfetch
